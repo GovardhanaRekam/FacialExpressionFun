@@ -14,6 +14,7 @@ ExpressMimic is a fun game where you mimic facial expressions detected by your w
 1. Clone the repository:
    ```bash
    git clone https://github.com/GovardhanaRekam/FacialExpressionFun
+   cd FacialExpressionFun
    ```
 
 2. Install dependencies:
@@ -33,6 +34,29 @@ ExpressMimic is a fun game where you mimic facial expressions detected by your w
 - [DeepFace](https://github.com/serengil/deepface): For detecting facial expressions.
 - [Threading](https://docs.python.org/3/library/threading.html): For parallel execution of game and video threads.
 - [CSV](https://docs.python.org/3/library/csv.html): For handling game data storage.
+### Game Mechanics:
+
+1. **Starting the Game**:
+    - Upon running the script, the player is prompted to enter their name to start the game.
+    - Once the player enters their name, the game begins.
+
+2. **Game Loop**:
+    - The game loop consists of displaying video prompts of facial expressions captured from video files.
+    - Each prompt lasts for a specific duration, during which the player needs to mimic the displayed expression.
+
+3. **Expression Mimicry**:
+    - The player watches the video prompt and mimics the facial expression shown in real-time.
+    - The expression recognition system detects the player's facial expression and matches it with the prompt.
+
+4. **Scoring**:
+    - If the player accurately mimics the expression within the time limit, they earn points.
+    - Points are awarded for each correctly matched expression.
+
+5. **Game End**:
+    - The game continues until either a certain duration elapses or all expressions have been shown.
+    - If the player successfully mimics all expressions, they complete the game with a final score.
+    - If the time limit expires or all expressions are exhausted, the game ends, and the final score is displayed.
+
 
 ## Acknowledgements
 
