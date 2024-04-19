@@ -13,11 +13,7 @@ model = DeepFace.build_model('Emotion')
 game_started = False
 cap = None
 video_files = [
-    "/home/amma/Desktop/DSD/songc.mp4",
-    "/home/amma/Desktop/DSD/alien.mp4",
-    "/home/amma/Desktop/DSD/butter.mp4",
-    "/home/amma/Desktop/DSD/chipi.mp4",
-    "/home/amma/Desktop/DSD/chipi1.mp4"
+    "your video file paths"
 ]
 expressions = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 video_thread = None  # Placeholder for video thread
@@ -59,11 +55,7 @@ def play_random_video():
         if not video_files:
             # Reset the list to the original
             video_files.extend([
-                "/home/amma/Desktop/DSD/songc.mp4",
-                "/home/amma/Desktop/DSD/alien.mp4",
-                "/home/amma/Desktop/DSD/butter.mp4",
-                "/home/amma/Desktop/DSD/chipi.mp4",
-                "/home/amma/Desktop/DSD/chipi1.mp4"
+                "your video file paths"
             ])
 
 # Function to start the game
