@@ -56,6 +56,10 @@ ExpressMimic is a fun game where you mimic facial expressions detected by your w
     - The game continues until either a certain duration elapses or all expressions have been shown.
     - If the player successfully mimics all expressions, they complete the game with a final score.
     - If the time limit expires or all expressions are exhausted, the game ends, and the final score is displayed.
+## Screenshot while gaming:
+
+![ExpressMimic Screenshot](Screenshot%20from%202024-04-19%2023-05-50.png)
+
 
 
 ## Acknowledgements
